@@ -1,6 +1,6 @@
 # PRIMER ENTREGA DEL PROYECTO FINAL
 
-###### Es un sistema es un carrito de compra con articulos Predefinidos
+###### SISTEMA DE CARRITOS DE COMPRA CON MANEJO DE STOCK
 ```
 Alta y Baja de Stock (con usuario admin)
 ```

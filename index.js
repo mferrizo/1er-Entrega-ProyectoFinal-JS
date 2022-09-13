@@ -57,7 +57,7 @@ const descuentos = [descuentos5, descuentos10, descuentos15]
 //CADA CATEGORIA TIENE SU CONSTANTE DE BUSQUEDA PARA NO EXCEDER QUE POR ERROR CARGUEN ARTICULOS DE OTRAS CATEGORIA (VER COMO SUMAR AUTOMATICAMENTE NUEVOS)
 //SI EL USUARIO PONE 0, DEJA VACIO O PONE UN ID QUE ESTA FUERA DE LA CONSTANTE DEVUELVE 0 A LA SUMA FINAL Y MARCA COMO ARTICULO SINC ARGAR
 function cajas(){
-    let buscarProducto = prompt(`Elija el color de su Caja:\nPara ${producto1.producto} Ingrese ${producto1.id}\nPara ${producto2.producto} Ingrese ${producto2.id}\nSi NO  desea CAJA Presione ENTER O INGRESE 0`)
+    let buscarProducto = prompt(`Elija el color de su Caja:\nPara ${producto1.producto} a $${producto1.precio} Ingrese ${producto1.id}\nPara ${producto2.producto} a $${producto2.precio} Ingrese ${producto2.id}\nSi NO  desea CAJA Presione ENTER O INGRESE 0`)
     let idEncontrado = cajaN.find((cajaNavidad)=> cajaNavidad.id == buscarProducto)
     if(idEncontrado == undefined) {
         alert(`Articulo sin Cargar`)
@@ -68,7 +68,7 @@ function cajas(){
     }
 }
 function sidras(){
-    let buscarProducto = prompt(`Elija su Bebida con alcohol:\nSidra ${producto3.producto} Ingrese ${producto3.id}\nSidra ${producto4.producto} Ingrese ${producto4.id}\nSi NO  desea SIDRA Presione ENTER O INGRESE 0`)
+    let buscarProducto = prompt(`Elija su Bebida con alcohol:\nSidra ${producto3.producto} a $${producto3.precio} Ingrese ${producto3.id}\nSidra ${producto4.producto} a $${producto4.precio} Ingrese ${producto4.id}\nSi NO  desea SIDRA Presione ENTER O INGRESE 0`)
     let idEncontrado = sidraN.find((cajaNavidad)=> cajaNavidad.id == buscarProducto)
     if(idEncontrado == undefined) {
         alert(`Articulo sin Cargar`)
@@ -79,7 +79,7 @@ function sidras(){
     }
 }
 function panDulces(){
-    let buscarProducto = prompt(`Elija su Pan Dulce:\nPara ${producto5.producto} Ingrese ${producto5.id}\nPara ${producto6.producto} Ingrese ${producto6.id}\nSi NO  desea PAN DULCE Presione ENTER O INGRESE 0`)
+    let buscarProducto = prompt(`Elija su Pan Dulce:\nPara ${producto5.producto} a $${producto5.precio} Ingrese ${producto5.id}\nPara ${producto6.producto} a $${producto6.precio} Ingrese ${producto6.id}\nSi NO  desea PAN DULCE Presione ENTER O INGRESE 0`)
     let idEncontrado = panDulceN.find((cajaNavidad)=> cajaNavidad.id == buscarProducto)
     if(idEncontrado == undefined) {
         alert(`Articulo sin Cargar`)
@@ -90,7 +90,7 @@ function panDulces(){
     }
 }
 function turrones(){
-    let buscarProducto = prompt(`Elija su Turron:\nPara ${producto7.producto} Ingrese ${producto7.id}\nPara ${producto8.producto} Ingrese ${producto8.id}\nSi NO  desea TURRON Presione ENTER O INGRESE 0`)
+    let buscarProducto = prompt(`Elija su Turron:\nPara ${producto7.producto} a $${producto7.precio} Ingrese ${producto7.id}\nPara ${producto8.producto} a $${producto8.precio} Ingrese ${producto8.id}\nSi NO  desea TURRON Presione ENTER O INGRESE 0`)
     let idEncontrado = turronN.find((cajaNavidad)=> cajaNavidad.id == buscarProducto)
     if(idEncontrado == undefined) {
         alert(`Articulo sin Cargar`)
@@ -101,7 +101,7 @@ function turrones(){
     }
 }
 function budines(){
-    let buscarProducto = prompt(`Elija su Budin:\nPara ${producto9.producto} Ingrese ${producto9.id}\nPara ${producto10.producto} Ingrese ${producto10.id}\nSi NO  desea BUDIN Presione ENTER O INGRESE 0`)
+    let buscarProducto = prompt(`Elija su Budin:\nPara ${producto9.producto} a $${producto9.precio} Ingrese ${producto9.id}\nPara ${producto10.producto} a $${producto10.precio} Ingrese ${producto10.id}\nSi NO  desea BUDIN Presione ENTER O INGRESE 0`)
     let idEncontrado = budinN.find((cajaNavidad)=> cajaNavidad.id == buscarProducto)
     if(idEncontrado == undefined) {
         alert(`Articulo sin Cargar`)
@@ -112,7 +112,7 @@ function budines(){
     }
 }
 function latas(){
-    let buscarProducto = prompt(`Elija la Conserva:\nPara ${producto11.producto} Ingrese ${producto11.id}\nPara ${producto12.producto} Ingrese ${producto12.id}\nSi NO  desea CONSERVA Presione ENTER O INGRESE 0`)
+    let buscarProducto = prompt(`Elija la Conserva:\nPara ${producto11.producto} a $${producto11.precio} Ingrese ${producto11.id}\nPara ${producto12.producto} a $${producto12.precio} Ingrese ${producto12.id}\nSi NO  desea CONSERVA Presione ENTER O INGRESE 0`)
     let idEncontrado = lataN.find((cajaNavidad)=> cajaNavidad.id == buscarProducto)
     if(idEncontrado == undefined) {
         alert(`Articulo sin Cargar`)
@@ -123,7 +123,7 @@ function latas(){
     }
 }
 function confitadosS(){
-    let buscarProducto = prompt(`Elija su Confitado:\nPara ${producto13.producto} Ingrese ${producto13.id}\nPara ${producto14.producto} Ingrese ${producto14.id}\nSi NO  desea CONFITADOS Presione ENTER O INGRESE 0`)
+    let buscarProducto = prompt(`Elija su Confitado:\nPara ${producto13.producto} a $${producto13.precio} Ingrese ${producto13.id}\nPara ${producto14.producto} a $${producto14.precio} Ingrese ${producto14.id}\nSi NO  desea CONFITADOS Presione ENTER O INGRESE 0`)
     let idEncontrado = confitadosN.find((cajaNavidad)=> cajaNavidad.id == buscarProducto)
     if(idEncontrado == undefined) {
         alert(`Articulo sin Cargar`)

@@ -238,22 +238,14 @@ function cajaNavidad() {
     let descuentoTotal = precioFinal - porcentajeDescuento
 
     //Mensaje hacia el usuario segun la compra
-    console.log(`Gracias por su compra ${nombreCliente}. Su Canasta Navideña Contiene:
-    \n- ${categoriaC} ${productoC} $${precioC}
-    \n- ${categoriaS} ${productoS} $${precioS}
-    \n- ${categoriaP} ${productoP} $${precioP}
-    \n- ${categoriaT} ${productoT} $${precioT}
-    \n- ${categoriaB} ${productoB} $${precioB}
-    \n- ${categoriaL} ${productoL} $${precioL}
-    \n- ${categoriaCO} ${productoCO} $${precioCO}
-    \nSUBTOTAL: $${cajaNavidad2} \nIVA 21%: $${impuesto} \nPRECIO FINAL: $${precioFinal}
-    \n${categoriaD} ${productoD} $${porcentajeDescuento}
+    confirm(`Gracias por su compra ${nombreCliente}. Su Canasta Navideña Contiene:\n- ${categoriaC} ${productoC} $${precioC}\n- ${categoriaS} ${productoS} $${precioS}\n- ${categoriaP} ${productoP} $${precioP}\n- ${categoriaT} ${productoT} $${precioT}\n- ${categoriaB} ${productoB} $${precioB}\n- ${categoriaL} ${productoL} $${precioL}\n- ${categoriaCO} ${productoCO} $${precioCO}
+    \nSUBTOTAL: $${cajaNavidad2} \nIVA 21%: $${impuesto} \nPRECIO FINAL: $${precioFinal}\n${categoriaD} ${productoD} $${porcentajeDescuento}
     \nTOTAL CON DESCUENTO INCLUIDO: ${descuentoTotal}`)
     let usuario = prompt("desea Cargar un nuevo Pedido o Finalizar? \n Si o NO ") // Pregunta si quiere seguir, vuelve a empezar o agradece
 if(usuario.toLowerCase() == "si"){
     sistemadeStock();
 }else{
-    let = "no" (alert(`Muchas ${window.location.href = 'Gracias/index.html'} Por su Compra`))    
+    let = "no" (alert(`Muchas ${window.location.href = 'Gracias/'} Por su Compra`))    
 }
 }
 if(compraCajanavidad == true){

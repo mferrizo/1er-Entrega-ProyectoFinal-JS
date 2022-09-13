@@ -1,0 +1,9 @@
+div {
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.imagen {
+    height: 300px;
+}
